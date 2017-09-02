@@ -16,7 +16,7 @@ Showcases how to make plugin provide compiler plugins, SBT plugins & other proje
         ...
 # demo of usage of plugin-provided lib dependencies, SBT plugins & compiler plugins
         └── ErrA.scala
-├── b
+├── b # second user of the plugin
 │   ├── build.sbt
 │   ├── project
 │   │   ├── build.properties
